@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/icons/rest_ico.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto+Slab&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contacts.css">
+</head>
+<body style="background-color: #495057">
+    <div id="contacts_page_top">
+        <img src="./assets/pics/logo2.png" id="contacts_page_top_logo">
+        <ul id="contacts_page_text1">
+            <li style="margin-right: 2vw;" >
+                <a href="index.html" class="contacts_page_top_buttons">Головна</a>
+            </li>
+            <li style="margin-right: 2vw;" >
+                <a href="menu.html" class="contacts_page_top_buttons">Меню</a>
+            </li>
+            <li style="margin-right: 2vw;" >
+                <a href="reservation.html" class="contacts_page_top_buttons">Бронь</a>
+            </li>
+            <li style="margin-right: 2vw;">
+                <a href="delivery.html" class="contacts_page_top_buttons">Доставка</a>
+            </li>
+            <li>
+                <a href="constacts.html" class="contacts_page_top_pressedbuttons">Контакти</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contacts_page_top_picture">
+        <img src="assets/pics/contactspic1.jpg" id="contacts_page_top_pic">
+        <p id="contacts_page_top_text">
+            Contact us
+        </p>
+    </div>
+
+    <div id="contacts_page_forms">
+        <form action="123.js" method="post" id="contacts_page_iforms">
+            <label for="first-name">Ім'я:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <br>
+            <label for="last-name">Прізвище:</label>
+            <input type="text" id="last-name" name="last-name" required>  <!-- Додати карту та оформити форму + backend частина форми -->
+            <br>
+            <label for="phone-number">Номер телефону:</label>
+            <input type="text" id="phone-number" name="phone-number" required>
+            <br>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" maxlength="100" required></textarea>
+            <br>
+            <input type="submit" value="Надіслати">
+        </form>
+    </div>
+
+</body>
+</html>

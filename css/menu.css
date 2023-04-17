@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#menu_page_top {
+    display: flex;
+    background-color: #343A40;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 10000;
+
+
+}
+
+#menu_page_text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.6vw;
+    text-align: center;
+    top:30%;
+    left:25%;
+    list-style-type: none;
+
+
+}
+
+.menu_page_top_buttons {
+
+    text-decoration: none;
+    color: #ced4da;
+    transition:all 0.7s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.menu_page_top_pressedbuttons {
+    text-decoration: none;
+    color: #ced4da;
+    transition:all 0.7s ease;
+    border-bottom: 2px solid #a7e5ff;
+}
+
+.menu_page_top_buttons:hover {
+
+    color: #a7e5ff;
+    border-color: #a7e5ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+#menu_page_top_logo {
+    position: relative;
+    margin-left: 10%;
+    height: 100%;
+    width: 5%;
+    transform: scale(3);
+}
+
+#menu_page_top_pic {
+    top:10%;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+}
+
+#menu_page_top_pic1 {
+    position: absolute;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+#menu_pictext {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size:5.5vw;
+}
+
+#menu_page_menu {
+    position: absolute;
+    background-color: #495057;
+    top: 50%;
+    width: 100%;
+    height: 500%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 20px;
+    padding-top: 2%;
+}
+
+#menu_page_bottom {
+    top: 600%;
+    position: absolute;
+    background-color: #212529;
+    width: 100%;
+    height: 70%;
+}
+
+#menu_page_bottom_pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+}
+
+#menu_page_bottom_contact {
+    color: #ced4da;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#menu_page_bottom_address {
+    color:#ced4da;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+#menu_page_bottom_hours {
+    color:#ced4da;
+    position: absolute;
+    list-style: none;
+    top:25%;
+    left:60%;
+}
+
+#menu_page_bottom_logo {
+    position: absolute;
+    transform: scale(0.2);
+    top:-400px;
+    left: -280px;
+}
